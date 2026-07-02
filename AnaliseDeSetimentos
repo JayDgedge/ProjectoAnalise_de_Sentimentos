@@ -1,0 +1,402 @@
+# ============================================================
+# PROJECTO:
+# Análise de Sentimento de Publicações sobre Serviços Públicos
+# em Moçambique
+# ============================================================
+
+# ============================================================
+# 1. IMPORTAR BIBLIOTECAS
+# ============================================================
+
+import pandas as pd
+import numpy as np
+import re
+import unicodedata
+
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import LinearSVC
+
+from sklearn.metrics import (
+    accuracy_score,
+    precision_score,
+    recall_score,
+    f1_score,
+    classification_report,
+    confusion_matrix
+)
+
+
+# ============================================================
+# 2. CARREGAR DATASET
+# ============================================================
+
+df = pd.read_csv("dataset_sentimento_servicos_publicos_mocambique_600.csv")
+
+print("Formato do dataset:", df.shape)
+print(df.head())
+
+
+# ============================================================
+# 3. STOPWORDS EM PORTUGUÊS
+# ============================================================
+
+stopwords_pt = {
+    "a", "à", "ao", "aos", "as", "às",
+    "de", "da", "do", "das", "dos",
+    "em", "na", "no", "nas", "nos",
+    "e", "ou", "um", "uma", "uns", "umas",
+    "para", "por", "com", "sem",
+    "que", "se", "foi", "ser", "são", "esta", "está",
+    "este", "essa", "esse", "isso", "isto",
+    "muito", "muita", "muitos", "muitas",
+    "mais", "menos", "já", "ja", "ha", "há",
+    "hoje", "ontem", "amanhã", "amanha", "durante",
+    "sobre", "entre", "depois", "antes",
+    "todo", "toda", "todos", "todas",
+    "meu", "minha", "nosso", "nossa",
+    "pelo", "pela", "pelos", "pelas",
+    "num", "numa", "como", "quando", "onde",
+    "mas"
+}
+
+# Importante:
+# Não removemos "não/nao", porque é relevante para sentimento negativo.
+
+
+# ============================================================
+# 4. FUNÇÕES DE PRÉ-PROCESSAMENTO
+# ============================================================
+
+def remover_acentos(texto):
+    texto = unicodedata.normalize("NFKD", str(texto))
+    texto = texto.encode("ASCII", "ignore").decode("utf-8")
+    return texto
+
+
+def normalizar_texto(texto):
+    texto = str(texto).lower()
+    texto = remover_acentos(texto)
+
+    texto = re.sub(r"http\S+|www\S+", " ", texto)
+    texto = re.sub(r"@\w+", " ", texto)
+    texto = re.sub(r"#", " ", texto)
+
+    texto = re.sub(r"[^a-zA-Z\s]", " ", texto)
+    texto = re.sub(r"\s+", " ", texto).strip()
+
+    return texto
+
+
+def tokenizar(texto):
+    return texto.split()
+
+
+def remover_stopwords(tokens):
+    return [
+        palavra for palavra in tokens
+        if palavra not in stopwords_pt and len(palavra) > 2
+    ]
+
+
+def stemming_simples(palavra):
+    sufixos = [
+        "mente", "coes", "cao", "sao",
+        "idades", "idade",
+        "amentos", "amento",
+        "imentos", "imento",
+        "adoras", "adora", "adores", "ador",
+        "antes", "ante",
+        "aveis", "avel",
+        "iveis", "ivel",
+        "adas", "ados", "ada", "ado",
+        "idas", "idos", "ida", "ido",
+        "ar", "er", "ir",
+        "ou", "am", "em",
+        "es", "s"
+    ]
+
+    for sufixo in sufixos:
+        if palavra.endswith(sufixo) and len(palavra) > len(sufixo) + 3:
+            return palavra[:-len(sufixo)]
+
+    return palavra
+
+
+def preprocessar_texto(texto):
+    texto = normalizar_texto(texto)
+    tokens = tokenizar(texto)
+    tokens = remover_stopwords(tokens)
+    tokens = [stemming_simples(palavra) for palavra in tokens]
+
+    return " ".join(tokens)
+
+
+# ============================================================
+# 5. APLICAR PRÉ-PROCESSAMENTO
+# ============================================================
+
+df["texto_normalizado"] = df["texto"].apply(normalizar_texto)
+df["tokens"] = df["texto_normalizado"].apply(tokenizar)
+df["tokens_sem_stopwords"] = df["tokens"].apply(remover_stopwords)
+df["texto_processado"] = df["texto"].apply(preprocessar_texto)
+
+df["texto_processado"] = df["texto_processado"].fillna("")
+
+print("\nExemplo de pré-processamento:")
+print(df[["texto", "texto_processado", "sentimento"]].head())
+
+
+# ============================================================
+# 6. GUARDAR DATASET PROCESSADO
+# ============================================================
+
+df.to_csv("dataset_sentimento_preprocessado.csv", index=False, encoding="utf-8-sig")
+
+print("\nDataset processado guardado como:")
+print("dataset_sentimento_preprocessado.csv")
+
+
+# ============================================================
+# 7. EXTRAÇÃO DE FEATURES
+# BAG OF WORDS E TF-IDF
+# ============================================================
+
+bow_vectorizer = CountVectorizer()
+X_bow = bow_vectorizer.fit_transform(df["texto_processado"])
+
+tfidf_vectorizer = TfidfVectorizer()
+X_tfidf = tfidf_vectorizer.fit_transform(df["texto_processado"])
+
+# Normalizar a coluna 'sentimento'
+df['sentimento'] = df['sentimento'].astype(str).str.lower().replace({
+    'pos': 'positivo',
+    'negativa': 'negativo',
+    'neutral': 'neutro'
+})
+
+# Corrigir inconsistências de capitalização
+df['sentimento'] = df['sentimento'].str.capitalize()
+
+# Remover linhas onde 'sentimento' é 'Nan'
+df = df[df['sentimento'] != 'Nan']
+
+
+y = df["sentimento"]
+
+print("\nBag of Words:", X_bow.shape)
+print("TF-IDF:", X_tfidf.shape)
+
+print("\nDistribuição das classes:")
+print(y.value_counts())
+
+
+# ============================================================
+# 8. GUARDAR VOCABULÁRIOS
+# ============================================================
+
+vocab_bow = pd.DataFrame({
+    "palavra": bow_vectorizer.get_feature_names_out()
+})
+
+vocab_tfidf = pd.DataFrame({
+    "palavra": tfidf_vectorizer.get_feature_names_out()
+})
+
+vocab_bow.to_csv("vocabulario_bag_of_words.csv", index=False, encoding="utf-8-sig")
+vocab_tfidf.to_csv("vocabulario_tfidf.csv", index=False, encoding="utf-8-sig")
+
+print("\nVocabulários guardados.")
+
+
+# ============================================================
+# 9. FUNÇÃO PARA TREINAR E AVALIAR MODELOS
+# ============================================================
+
+def treinar_avaliar_modelos(X, y, nome_representacao):
+
+    X_train, X_test, y_train, y_test = train_test_split(
+        X,
+        y,
+        test_size=0.2,
+        random_state=42,
+        stratify=y
+    )
+
+    modelos = {
+        "Naive Bayes": MultinomialNB(),
+        "Regressão Logística": LogisticRegression(max_iter=1000),
+        "SVM": LinearSVC()
+    }
+
+    resultados = []
+
+    print("\n=================================================")
+    print(f"RESULTADOS COM {nome_representacao}")
+    print("=================================================")
+
+    for nome_modelo, modelo in modelos.items():
+
+        modelo.fit(X_train, y_train)
+        y_pred = modelo.predict(X_test)
+
+        accuracy = accuracy_score(y_test, y_pred)
+        precision = precision_score(y_test, y_pred, average="macro")
+        recall = recall_score(y_test, y_pred, average="macro")
+        f1 = f1_score(y_test, y_pred, average="macro")
+
+        resultados.append({
+            "Representacao": nome_representacao,
+            "Modelo": nome_modelo,
+            "Accuracy": accuracy,
+            "Precision_macro": precision,
+            "Recall_macro": recall,
+            "F1_macro": f1
+        })
+
+        print(f"\nModelo: {nome_modelo}")
+        print("Accuracy:", accuracy)
+        print("Precision macro:", precision)
+        print("Recall macro:", recall)
+        print("F1 macro:", f1)
+
+        print("\nClassification Report:")
+        print(classification_report(y_test, y_pred))
+
+        print("Matriz de Confusão:")
+        print(confusion_matrix(y_test, y_pred))
+
+    return pd.DataFrame(resultados)
+
+
+# ============================================================
+# 10. TREINAR E COMPARAR MODELOS
+# ============================================================
+
+resultados_bow = treinar_avaliar_modelos(
+    X_bow,
+    y,
+    "Bag of Words"
+)
+
+resultados_tfidf = treinar_avaliar_modelos(
+    X_tfidf,
+    y,
+    "TF-IDF"
+)
+
+resultados_finais = pd.concat(
+    [resultados_bow, resultados_tfidf],
+    ignore_index=True
+)
+
+print("\n=================================================")
+print("TABELA FINAL DE COMPARAÇÃO")
+print("=================================================")
+print(resultados_finais)
+
+resultados_finais.to_csv(
+    "resultados_comparacao_modelos.csv",
+    index=False,
+    encoding="utf-8-sig"
+)
+
+print("\nResultados guardados como:")
+print("resultados_comparacao_modelos.csv")
+
+
+# ============================================================
+# 11. PALAVRAS MAIS DISCRIMINATIVAS POR CLASSE
+# REGRESSÃO LOGÍSTICA + TF-IDF
+# ============================================================
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X_tfidf,
+    y,
+    test_size=0.2,
+    random_state=42,
+    stratify=y
+)
+
+modelo_interpretavel = LogisticRegression(max_iter=1000)
+modelo_interpretavel.fit(X_train, y_train)
+
+palavras = tfidf_vectorizer.get_feature_names_out()
+classes = modelo_interpretavel.classes_
+
+top_n = 15
+linhas = []
+
+for i, classe in enumerate(classes):
+    coeficientes = modelo_interpretavel.coef_[i]
+    indices_top = np.argsort(coeficientes)[-top_n:][::-1]
+
+    print("\n=================================================")
+    print(f"PALAVRAS MAIS DISCRIMINATIVAS PARA: {classe}")
+    print("=================================================")
+
+    for indice in indices_top:
+        palavra = palavras[indice]
+        peso = coeficientes[indice]
+
+        print(f"{palavra} -> peso: {peso:.4f}")
+
+        linhas.append({
+            "classe": classe,
+            "palavra": palavra,
+            "peso": peso
+        })
+
+df_palavras = pd.DataFrame(linhas)
+
+df_palavras.to_csv(
+    "palavras_discriminativas_por_classe.csv",
+    index=False,
+    encoding="utf-8-sig"
+)
+
+print("\nPalavras discriminativas guardadas como:")
+print("palavras_discriminativas_por_classe.csv")
+
+
+# ============================================================
+# 12. FUNÇÃO PARA CLASSIFICAR NOVOS TEXTOS
+# USANDO REGRESSÃO LOGÍSTICA + TF-IDF
+# ============================================================
+
+def classificar_publicacao(texto):
+    texto_proc = preprocessar_texto(texto)
+    texto_vectorizado = tfidf_vectorizer.transform([texto_proc])
+    predicao = modelo_interpretavel.predict(texto_vectorizado)[0]
+
+    return predicao
+
+
+# ============================================================
+# 13. TESTE COM NOVAS PUBLICAÇÕES
+# ============================================================
+
+exemplos = [
+    "Estamos sem água há dois dias e ninguém resolve.",
+    "A EDM resolveu rapidamente a avaria no bairro.",
+    "O município informou que haverá alteração nas rotas dos chapas."
+]
+
+print("\n=================================================")
+print("TESTE COM NOVAS PUBLICAÇÕES")
+print("=================================================")
+
+for texto in exemplos:
+    sentimento = classificar_publicacao(texto)
+    print("\nTexto:", texto)
+    print("Sentimento previsto:", sentimento)
+
+
+# ============================================================
+# FIM DO PROJECTO
+# ============================================================
+
+print("\nExecução concluída com sucesso.")
