@@ -1,0 +1,601 @@
+﻿id,texto,servico,sentimento
+1,"Em Nampula, estamos satisfeitos com a melhoria no abastecimento. A situação afecta muita gente.",Água,Positivo
+2,"Na minha zona, a falta de energia estragou alimentos em várias casas. É importante acompanhar.",Electricidade,Negativo
+3,"No bairro, a viagem foi desconfortável e demorada. É importante acompanhar.",Transportes,Negativo
+4,"Sinceramente, a equipa técnica resolveu a fuga de água rapidamente. Esta é a realidade no terreno.",Água,Positivo
+5,"Segundo alguns moradores, a melhoria dos transportes ajudou quem vai trabalhar cedo.",Transportes,Positivo
+6,"Em Nampula, o FIPAG informou que haverá manutenção na rede de água. Isto precisa de atenção.",Água,Neutro
+7,"Em Maputo, a equipa da EDM resolveu a avaria com muita rapidez. A situação afecta muita gente.",Electricidade,Positivo
+8,"Hoje, a conduta rebentou e ninguém veio reparar.",Água,Negativo
+9,"Na Beira, o FIPAG respondeu rapidamente à reclamação dos moradores. Isto precisa de atenção.",Água,Positivo
+10,"Na Beira, os horários dos autocarros foram actualizados. O serviço deve ser monitorado.",Transportes,Neutro
+11,"Em Nampula, a equipa da EDM resolveu a avaria com muita rapidez. A população comentou bastante sobre isso.",Electricidade,Positivo
+12,"Hoje, a reparação da conduta foi feita no mesmo dia. A situação afecta muita gente.",Água,Positivo
+13,"Em Maputo, o abastecimento de água foi regular durante toda a semana. O serviço deve ser monitorado.",Água,Positivo
+14,o terminal estava sujo e sem orientação. É importante acompanhar.,Transportes,Negativo
+15,"Na Beira, os horários dos autocarros foram actualizados.",Transportes,Neutro
+16,"Na minha zona, a energia foi interrompida para trabalhos na rede. Esta é a realidade no terreno.",Electricidade,Neutro
+17,a EDM avisou com antecedência sobre a manutenção programada. Isto precisa de atenção.,Electricidade,Positivo
+18,"Em Maputo, a leitura do contador será feita nos próximos dias. É importante acompanhar.",Electricidade,Neutro
+19,"Sinceramente, hoje os autocarros chegaram no horário. É importante acompanhar.",Transportes,Positivo
+20,"Em Nampula, hoje tivemos água limpa e sem interrupções. É importante acompanhar.",Água,Positivo
+21,"Na minha zona, a equipa da EDM resolveu a avaria com muita rapidez. O serviço deve ser monitorado.",Electricidade,Positivo
+22,"Hoje, os chapas cobram acima do preço normal. O serviço deve ser monitorado.",Transportes,Negativo
+23,"Segundo alguns moradores, o motorista conduziu de forma perigosa. Isto precisa de atenção.",Transportes,Negativo
+24,"Em Maputo, as enchentes nos chapas continuam perigosas. Isto precisa de atenção.",Transportes,Negativo
+25,"Em Maputo, o preço da viagem foi mantido segundo o aviso oficial. É importante acompanhar.",Transportes,Neutro
+26,"Segundo alguns moradores, a viagem foi desconfortável e demorada. O serviço deve ser monitorado.",Transportes,Negativo
+27,"Sinceramente, estamos satisfeitos com a melhoria no abastecimento.",Água,Positivo
+28,"Em Nampula, o autocarro estava limpo e em boas condições.",Transportes,Positivo
+29,"Na Beira, os transportes atrasaram muito e cheguei tarde ao trabalho. A população comentou bastante sobre isso.",Transportes,Negativo
+30,"Hoje, a baixa tensão danificou aparelhos em casa. É importante acompanhar.",Electricidade,Negativo
+31,"Em Maputo, o motorista conduziu de forma perigosa. Esta é a realidade no terreno.",Transportes,Negativo
+32,"Sinceramente, o trajecto foi feito dentro do tempo esperado. A situação afecta muita gente.",Transportes,Positivo
+33,"Na Beira, a pressão da água melhorou muito no bairro. A população comentou bastante sobre isso.",Água,Positivo
+34,"Em Maputo, a energia foi interrompida para trabalhos na rede. A situação afecta muita gente.",Electricidade,Neutro
+35,"Sinceramente, a melhoria dos transportes ajudou quem vai trabalhar cedo. A população comentou bastante sobre isso.",Transportes,Positivo
+36,"Hoje, os apagões constantes estão a prejudicar os nossos negócios. Esta é a realidade no terreno.",Electricidade,Negativo
+37,"Segundo alguns moradores, a água voltou com boa pressão depois da reparação. A população comentou bastante sobre isso.",Água,Positivo
+38,"pagamos a factura, mas o abastecimento é irregular. Isto precisa de atenção.",Água,Negativo
+39,"Sinceramente, o bairro sofre cortes sem aviso prévio. A população comentou bastante sobre isso.",Electricidade,Negativo
+40,"No bairro, os moradores aguardam reposição do abastecimento. Isto precisa de atenção.",Água,Neutro
+41,"Segundo alguns moradores, o preço da viagem foi mantido segundo o aviso oficial. A população comentou bastante sobre isso.",Transportes,Neutro
+42,"Sinceramente, a factura veio correcta e o sistema de pagamento funcionou bem. O serviço deve ser monitorado.",Electricidade,Positivo
+43,"Na minha zona, a conduta rebentou e ninguém veio reparar.",Água,Negativo
+44,"No bairro, os passageiros ficaram muito tempo à espera. A situação afecta muita gente.",Transportes,Negativo
+45,"Sinceramente, a EDM avisou com antecedência sobre a manutenção programada. O serviço deve ser monitorado.",Electricidade,Positivo
+46,"No bairro, o motorista conduziu com segurança e respeito. Isto precisa de atenção.",Transportes,Positivo
+47,"No bairro, a factura veio alta apesar de quase não termos água. É importante acompanhar.",Água,Negativo
+48,"Na minha zona, a água chegou cedo e com boa qualidade. A população comentou bastante sobre isso.",Água,Positivo
+49,"Em Nampula, o novo posto de transformação reduziu os cortes no bairro. Isto precisa de atenção.",Electricidade,Positivo
+50,"Em Nampula, a rede de água precisa de manutenção urgente. Isto precisa de atenção.",Água,Negativo
+51,"Em Maputo, os moradores receberam aviso sobre trabalhos eléctricos. O serviço deve ser monitorado.",Electricidade,Neutro
+52,"Na Beira, o contador foi verificado pela equipa técnica.",Electricidade,Neutro
+53,o aviso sobre a interrupção de água foi feito com antecedência.,Água,Positivo
+54,"Em Nampula, o terminal estava sujo e sem orientação. A população comentou bastante sobre isso.",Transportes,Negativo
+55,"Sinceramente, o terminal estava sujo e sem orientação. Esta é a realidade no terreno.",Transportes,Negativo
+56,"No bairro, o terminal recebeu nova sinalização para passageiros. A população comentou bastante sobre isso.",Transportes,Neutro
+57,"Sinceramente, a EDM anunciou uma manutenção programada para amanhã. A população comentou bastante sobre isso.",Electricidade,Neutro
+58,"Em Nampula, a melhoria dos transportes ajudou quem vai trabalhar cedo. O serviço deve ser monitorado.",Transportes,Positivo
+59,"Em Nampula, a nova rota facilitou muito a deslocação dos moradores.",Transportes,Positivo
+60,"Segundo alguns moradores, o trajecto foi feito dentro do tempo esperado. A população comentou bastante sobre isso.",Transportes,Positivo
+61,"No bairro, hoje tivemos água limpa e sem interrupções. O serviço deve ser monitorado.",Água,Positivo
+62,"Sinceramente, houve menos enchentes nas paragens hoje. É importante acompanhar.",Transportes,Positivo
+63,"Em Maputo, foi comunicado um trabalho de limpeza do reservatório. A situação afecta muita gente.",Água,Neutro
+64,"Hoje, a viagem foi desconfortável e demorada.",Transportes,Negativo
+65,"Na Beira, as paragens estão desorganizadas e cheias de confusão. É importante acompanhar.",Transportes,Negativo
+66,"Na minha zona, hoje tivemos água limpa e sem interrupções. A situação afecta muita gente.",Água,Positivo
+67,"Em Nampula, as paragens estão desorganizadas e cheias de confusão. O serviço deve ser monitorado.",Transportes,Negativo
+68,"Sinceramente, a viagem foi desconfortável e demorada. É importante acompanhar.",Transportes,Negativo
+69,"Segundo alguns moradores, a pressão da água melhorou muito no bairro. É importante acompanhar.",Água,Positivo
+70,"Na Beira, a factura da água já se encontra disponível. O serviço deve ser monitorado.",Água,Neutro
+71,"Em Nampula, a equipa técnica está a avaliar uma possível fuga.",Água,Neutro
+72,a factura veio correcta e o sistema de pagamento funcionou bem. Esta é a realidade no terreno.,Electricidade,Positivo
+73,a iluminação pública continua avariada e a rua está perigosa. A situação afecta muita gente.,Electricidade,Negativo
+74,"Em Maputo, os horários dos autocarros foram actualizados. A população comentou bastante sobre isso.",Transportes,Neutro
+75,"Sinceramente, a baixa tensão danificou aparelhos em casa. O serviço deve ser monitorado.",Electricidade,Negativo
+76,"Na minha zona, as enchentes nos chapas continuam perigosas. Esta é a realidade no terreno.",Transportes,Negativo
+77,"No bairro, a equipa técnica está a avaliar uma possível fuga. A população comentou bastante sobre isso.",Água,Neutro
+78,"No bairro, a factura de energia já está disponível para pagamento.",Electricidade,Neutro
+79,os chapas cobram acima do preço normal. É importante acompanhar.,Transportes,Negativo
+80,os apagões constantes estão a prejudicar os nossos negócios.,Electricidade,Negativo
+81,"No bairro, a água esteve disponível em alguns períodos do dia. O serviço deve ser monitorado.",Água,Neutro
+82,"Segundo alguns moradores, a iluminação pública continua avariada e a rua está perigosa.",Electricidade,Negativo
+83,o motorista conduziu de forma perigosa. O serviço deve ser monitorado.,Transportes,Negativo
+84,"Na Beira, os horários dos autocarros foram actualizados. Esta é a realidade no terreno.",Transportes,Neutro
+85,o abastecimento de água foi regular durante toda a semana. Isto precisa de atenção.,Água,Positivo
+86,"Segundo alguns moradores, a reposição da corrente foi feita antes do tempo previsto. Isto precisa de atenção.",Electricidade,Positivo
+87,"No bairro, o transporte público esteve mais organizado esta manhã. A situação afecta muita gente.",Transportes,Positivo
+88,"Em Maputo, a EDM informou que a reposição será feita à tarde. O serviço deve ser monitorado.",Electricidade,Neutro
+89,"Em Nampula, os horários dos autocarros foram actualizados. Esta é a realidade no terreno.",Transportes,Neutro
+90,"Em Maputo, o contador foi verificado pela equipa técnica. A população comentou bastante sobre isso.",Electricidade,Neutro
+91,"Na Beira, os técnicos da EDM estiveram a verificar a rede eléctrica. O serviço deve ser monitorado.",Electricidade,Neutro
+92,"Segundo alguns moradores, o preço subiu, mas a qualidade não melhorou. A população comentou bastante sobre isso.",Transportes,Negativo
+93,"Na minha zona, a iluminação pública foi reparada na nossa rua.",Electricidade,Positivo
+94,a reclamação ficou registada no sistema. Esta é a realidade no terreno.,Água,Neutro
+95,"Hoje, a EDM informou que a reposição será feita à tarde. É importante acompanhar.",Electricidade,Neutro
+96,"Em Nampula, a reclamação ficou registada no sistema. Esta é a realidade no terreno.",Água,Neutro
+97,"Na Beira, hoje haverá interrupção de energia em alguns bairros.",Electricidade,Neutro
+98,"Hoje, o serviço de energia melhorou bastante esta semana. Isto precisa de atenção.",Electricidade,Positivo
+99,"Hoje, a falta de energia estragou alimentos em várias casas.",Electricidade,Negativo
+100,"Na minha zona, a água voltou com boa pressão depois da reparação.",Água,Positivo
+101,"Na minha zona, a água chegou cedo e com boa qualidade.",Água,Positivo
+102,"Na Beira, os moradores receberam aviso sobre trabalhos eléctricos. É importante acompanhar.",Electricidade,Neutro
+103,"Sinceramente, as enchentes nos chapas continuam perigosas. A população comentou bastante sobre isso.",Transportes,Negativo
+104,"Segundo alguns moradores, algumas rotas foram desviadas por causa das obras.",Transportes,Neutro
+105,"Em Maputo, a equipa técnica resolveu a fuga de água rapidamente. Isto precisa de atenção.",Água,Positivo
+106,"Sinceramente, a EDM demora muito para responder às reclamações. Esta é a realidade no terreno.",Electricidade,Negativo
+107,"Segundo alguns moradores, houve menos enchentes nas paragens hoje. A população comentou bastante sobre isso.",Transportes,Positivo
+108,"Na minha zona, os moradores aguardam reposição do abastecimento. A população comentou bastante sobre isso.",Água,Neutro
+109,"Na minha zona, o FIPAG informou que haverá manutenção na rede de água. A situação afecta muita gente.",Água,Neutro
+110,"Hoje, a iluminação pública continua avariada e a rua está perigosa. Isto precisa de atenção.",Electricidade,Negativo
+111,"No bairro, o motorista conduziu com segurança e respeito. A população comentou bastante sobre isso.",Transportes,Positivo
+112,"No bairro, a demora na reposição da corrente é inaceitável. É importante acompanhar.",Electricidade,Negativo
+113,"Em Maputo, as enchentes nos chapas continuam perigosas. O serviço deve ser monitorado.",Transportes,Negativo
+114,"Em Nampula, as enchentes nos chapas continuam perigosas.",Transportes,Negativo
+115,"Na minha zona, o município anunciou mudanças na circulação dos chapas. A população comentou bastante sobre isso.",Transportes,Neutro
+116,"Na Beira, algumas rotas foram desviadas por causa das obras. A população comentou bastante sobre isso.",Transportes,Neutro
+117,"Na Beira, o preço da viagem foi mantido segundo o aviso oficial. A população comentou bastante sobre isso.",Transportes,Neutro
+118,"No bairro, o motorista conduziu com segurança e respeito. Isto precisa de atenção.",Transportes,Positivo
+119,"Sinceramente, pagamos a factura, mas o abastecimento é irregular. A população comentou bastante sobre isso.",Água,Negativo
+120,"No bairro, a iluminação pública continua avariada e a rua está perigosa.",Electricidade,Negativo
+121,"Hoje, a nova rota facilitou muito a deslocação dos moradores. É importante acompanhar.",Transportes,Positivo
+122,o serviço de energia melhorou bastante esta semana. A população comentou bastante sobre isso.,Electricidade,Positivo
+123,"Na minha zona, os horários dos autocarros foram actualizados. É importante acompanhar.",Transportes,Neutro
+124,"Na minha zona, a conduta rebentou e ninguém veio reparar. É importante acompanhar.",Água,Negativo
+125,"Hoje, o motorista conduziu com segurança e respeito. O serviço deve ser monitorado.",Transportes,Positivo
+126,"No bairro, a pressão da água melhorou muito no bairro.",Água,Positivo
+127,"Hoje, as paragens estão desorganizadas e cheias de confusão. A situação afecta muita gente.",Transportes,Negativo
+128,"No bairro, o pedido de ligação de água está em análise. A população comentou bastante sobre isso.",Água,Neutro
+129,"Hoje, os passageiros ficaram muito tempo à espera. Isto precisa de atenção.",Transportes,Negativo
+130,"Na minha zona, o bairro sofre cortes sem aviso prévio. O serviço deve ser monitorado.",Electricidade,Negativo
+131,"Segundo alguns moradores, a pressão da água melhorou muito no bairro. A população comentou bastante sobre isso.",Água,Positivo
+132,"No bairro, há poucos autocarros para tanta gente. A população comentou bastante sobre isso.",Transportes,Negativo
+133,"Segundo alguns moradores, o trajecto foi feito dentro do tempo esperado. É importante acompanhar.",Transportes,Positivo
+134,"Sinceramente, hoje os autocarros chegaram no horário. É importante acompanhar.",Transportes,Positivo
+135,os apagões constantes estão a prejudicar os nossos negócios. A situação afecta muita gente.,Electricidade,Negativo
+136,"Em Nampula, a viagem foi tranquila e sem atrasos. É importante acompanhar.",Transportes,Positivo
+137,"Na minha zona, o aviso sobre a interrupção de água foi feito com antecedência. Esta é a realidade no terreno.",Água,Positivo
+138,"Hoje, hoje tivemos água limpa e sem interrupções. É importante acompanhar.",Água,Positivo
+139,"Sinceramente, a pressão da água variou durante a manhã. A população comentou bastante sobre isso.",Água,Neutro
+140,"Na Beira, o aviso sobre a interrupção de água foi feito com antecedência. Esta é a realidade no terreno.",Água,Positivo
+141,"Na Beira, a energia voltou rapidamente no nosso bairro, bom trabalho da EDM. Esta é a realidade no terreno.",Electricidade,Positivo
+142,"Na minha zona, os moradores receberam aviso sobre trabalhos eléctricos. Isto precisa de atenção.",Electricidade,Neutro
+143,"No bairro, o transporte público esteve mais organizado esta manhã. Isto precisa de atenção.",Transportes,Positivo
+144,"Na Beira, a reparação da conduta foi feita no mesmo dia. Isto precisa de atenção.",Água,Positivo
+145,"No bairro, a rede de água precisa de manutenção urgente.",Água,Negativo
+146,"Sinceramente, a água chegou cedo e com boa qualidade. Esta é a realidade no terreno.",Água,Positivo
+147,"Sinceramente, algumas rotas foram desviadas por causa das obras. O serviço deve ser monitorado.",Transportes,Neutro
+148,a baixa tensão danificou aparelhos em casa. Esta é a realidade no terreno.,Electricidade,Negativo
+149,"Segundo alguns moradores, os técnicos chegaram cedo e deixaram tudo a funcionar. Isto precisa de atenção.",Electricidade,Positivo
+150,hoje tivemos electricidade estável durante todo o dia. O serviço deve ser monitorado.,Electricidade,Positivo
+151,"Sinceramente, o terminal estava sujo e sem orientação. A situação afecta muita gente.",Transportes,Negativo
+152,"Na minha zona, a conduta rebentou e ninguém veio reparar. É importante acompanhar.",Água,Negativo
+153,"Em Nampula, o preço da viagem foi mantido segundo o aviso oficial. Isto precisa de atenção.",Transportes,Neutro
+154,"No bairro, o pedido de ligação de água está em análise. O serviço deve ser monitorado.",Água,Neutro
+155,"Em Maputo, as paragens estão desorganizadas e cheias de confusão. A população comentou bastante sobre isso.",Transportes,Negativo
+156,a leitura do contador será feita nos próximos dias. A situação afecta muita gente.,Electricidade,Neutro
+157,"Na Beira, o serviço de energia melhorou bastante esta semana. O serviço deve ser monitorado.",Electricidade,Positivo
+158,"Sinceramente, a falta de energia estragou alimentos em várias casas. É importante acompanhar.",Electricidade,Negativo
+159,"Na minha zona, estamos satisfeitos com a melhoria no abastecimento.",Água,Positivo
+160,"Na Beira, o abastecimento de água foi regular durante toda a semana. A população comentou bastante sobre isso.",Água,Positivo
+161,"Sinceramente, a fiscalização esteve presente na paragem principal. Esta é a realidade no terreno.",Transportes,Neutro
+162,a leitura do contador será feita nos próximos dias. A população comentou bastante sobre isso.,Electricidade,Neutro
+163,"Segundo alguns moradores, os técnicos chegaram cedo e deixaram tudo a funcionar. Esta é a realidade no terreno.",Electricidade,Positivo
+164,"Segundo alguns moradores, a factura veio muito alta sem explicação clara. Isto precisa de atenção.",Electricidade,Negativo
+165,"Em Maputo, o FIPAG informou que haverá manutenção na rede de água. O serviço deve ser monitorado.",Água,Neutro
+166,"Sinceramente, a nova rota facilitou muito a deslocação dos moradores. A população comentou bastante sobre isso.",Transportes,Positivo
+167,"Na Beira, o pedido de ligação de água está em análise. A situação afecta muita gente.",Água,Neutro
+168,"Na Beira, foi comunicado um trabalho de limpeza do reservatório. A situação afecta muita gente.",Água,Neutro
+169,"No bairro, os chapas cobram acima do preço normal. Isto precisa de atenção.",Transportes,Negativo
+170,"Na Beira, algumas rotas foram desviadas por causa das obras. A população comentou bastante sobre isso.",Transportes,Neutro
+171,"Hoje, a energia foi interrompida para trabalhos na rede. É importante acompanhar.",Electricidade,Neutro
+172,"Na Beira, a equipa técnica está a avaliar uma possível fuga.",Água,Neutro
+173,"Em Maputo, a água chega suja e com mau cheiro.",Água,Negativo
+174,"Sinceramente, a corrente vai e volta várias vezes no mesmo dia. É importante acompanhar.",Electricidade,Negativo
+175,"Segundo alguns moradores, o transporte público esteve mais organizado esta manhã. Esta é a realidade no terreno.",Transportes,Positivo
+176,"Hoje, a iluminação pública foi reparada na nossa rua. A situação afecta muita gente.",Electricidade,Positivo
+177,"Segundo alguns moradores, a factura veio alta apesar de quase não termos água.",Água,Negativo
+178,"Em Nampula, o serviço de energia melhorou bastante esta semana. A população comentou bastante sobre isso.",Electricidade,Positivo
+179,"Na Beira, a equipa técnica resolveu a fuga de água rapidamente. Isto precisa de atenção.",Água,Positivo
+180,"Sinceramente, hoje haverá interrupção de energia em alguns bairros. O serviço deve ser monitorado.",Electricidade,Neutro
+181,estamos satisfeitos com a melhoria no abastecimento. Esta é a realidade no terreno.,Água,Positivo
+182,"Em Nampula, a água esteve disponível em alguns períodos do dia. A situação afecta muita gente.",Água,Neutro
+183,"Segundo alguns moradores, o terminal estava sujo e sem orientação. Esta é a realidade no terreno.",Transportes,Negativo
+184,"Segundo alguns moradores, a água chega suja e com mau cheiro. É importante acompanhar.",Água,Negativo
+185,"Em Nampula, a falta de energia estragou alimentos em várias casas. É importante acompanhar.",Electricidade,Negativo
+186,"Em Maputo, o terminal recebeu nova sinalização para passageiros.",Transportes,Neutro
+187,a circulação esteve condicionada durante a manhã. Esta é a realidade no terreno.,Transportes,Neutro
+188,"Na Beira, a EDM demora muito para responder às reclamações. Esta é a realidade no terreno.",Electricidade,Negativo
+189,algumas rotas foram desviadas por causa das obras. A população comentou bastante sobre isso.,Transportes,Neutro
+190,"Na Beira, o contador foi verificado pela equipa técnica. Esta é a realidade no terreno.",Electricidade,Neutro
+191,"No bairro, a conduta rebentou e ninguém veio reparar. A situação afecta muita gente.",Água,Negativo
+192,"No bairro, o FIPAG demora a responder às reclamações. Isto precisa de atenção.",Água,Negativo
+193,"Na minha zona, a equipa técnica resolveu a fuga de água rapidamente. Isto precisa de atenção.",Água,Positivo
+194,a EDM anunciou uma manutenção programada para amanhã. Isto precisa de atenção.,Electricidade,Neutro
+195,"No bairro, a corrente vai e volta várias vezes no mesmo dia.",Electricidade,Negativo
+196,"Sinceramente, a equipa técnica está a avaliar uma possível fuga. Isto precisa de atenção.",Água,Neutro
+197,"Em Maputo, a conduta rebentou e ninguém veio reparar. Esta é a realidade no terreno.",Água,Negativo
+198,"Em Nampula, algumas rotas foram desviadas por causa das obras. O serviço deve ser monitorado.",Transportes,Neutro
+199,"No bairro, a água chega suja e com mau cheiro. É importante acompanhar.",Água,Negativo
+200,"Em Maputo, o transporte público esteve mais organizado esta manhã. A população comentou bastante sobre isso.",Transportes,Positivo
+201,"Hoje, o abastecimento de água foi regular durante toda a semana. A situação afecta muita gente.",Água,Positivo
+202,"Em Nampula, a baixa tensão danificou aparelhos em casa. A situação afecta muita gente.",Electricidade,Negativo
+203,estamos sem energia há muitas horas e ninguém explica nada. É importante acompanhar.,Electricidade,Negativo
+204,"Na minha zona, o trajecto foi feito dentro do tempo esperado. É importante acompanhar.",Transportes,Positivo
+205,"No bairro, o contador foi verificado pela equipa técnica. A população comentou bastante sobre isso.",Electricidade,Neutro
+206,"Na minha zona, o pedido de ligação de água está em análise. A população comentou bastante sobre isso.",Água,Neutro
+207,a EDM informou que a reposição será feita à tarde. A população comentou bastante sobre isso.,Electricidade,Neutro
+208,a equipa técnica está a avaliar uma possível fuga. A situação afecta muita gente.,Água,Neutro
+209,"Segundo alguns moradores, o contador foi verificado pela equipa técnica. O serviço deve ser monitorado.",Electricidade,Neutro
+210,"Em Nampula, a falta de energia estragou alimentos em várias casas. O serviço deve ser monitorado.",Electricidade,Negativo
+211,"No bairro, as paragens estão desorganizadas e cheias de confusão. É importante acompanhar.",Transportes,Negativo
+212,o terminal estava sujo e sem orientação.,Transportes,Negativo
+213,"Segundo alguns moradores, os transportes atrasaram muito e cheguei tarde ao trabalho. Esta é a realidade no terreno.",Transportes,Negativo
+214,"Na Beira, a reparação da conduta foi feita no mesmo dia. A situação afecta muita gente.",Água,Positivo
+215,"Segundo alguns moradores, foi registada uma ocorrência no posto de transformação. A situação afecta muita gente.",Electricidade,Neutro
+216,"Segundo alguns moradores, hoje os autocarros chegaram no horário. Isto precisa de atenção.",Transportes,Positivo
+217,a paragem foi transferida temporariamente para outra zona. Isto precisa de atenção.,Transportes,Neutro
+218,"Em Nampula, a iluminação pública foi reparada na nossa rua. É importante acompanhar.",Electricidade,Positivo
+219,"Em Maputo, a pressão da água é muito fraca no bairro. Esta é a realidade no terreno.",Água,Negativo
+220,"Na minha zona, a iluminação pública foi reparada na nossa rua.",Electricidade,Positivo
+221,"Em Maputo, o motorista conduziu com segurança e respeito. O serviço deve ser monitorado.",Transportes,Positivo
+222,"Sinceramente, a factura veio muito alta sem explicação clara. A situação afecta muita gente.",Electricidade,Negativo
+223,a factura veio correcta e o sistema de pagamento funcionou bem. Esta é a realidade no terreno.,Electricidade,Positivo
+224,"Sinceramente, a factura da água já se encontra disponível. O serviço deve ser monitorado.",Água,Neutro
+225,"Em Nampula, a paragem foi transferida temporariamente para outra zona. A população comentou bastante sobre isso.",Transportes,Neutro
+226,"Sinceramente, a demora na reposição da corrente é inaceitável. Esta é a realidade no terreno.",Electricidade,Negativo
+227,"Sinceramente, a factura da água já se encontra disponível. O serviço deve ser monitorado.",Água,Neutro
+228,"Sinceramente, a reclamação ficou registada no sistema. É importante acompanhar.",Água,Neutro
+229,"Na minha zona, a EDM avisou com antecedência sobre a manutenção programada. A situação afecta muita gente.",Electricidade,Positivo
+230,"Sinceramente, a nova rota de transporte começou a operar hoje. O serviço deve ser monitorado.",Transportes,Neutro
+231,"Na minha zona, o serviço de energia melhorou bastante esta semana. Esta é a realidade no terreno.",Electricidade,Positivo
+232,"Na minha zona, a falta de energia estragou alimentos em várias casas. O serviço deve ser monitorado.",Electricidade,Negativo
+233,"Em Nampula, a leitura do contador será feita nos próximos dias.",Electricidade,Neutro
+234,"Na minha zona, a falta de água está a prejudicar as famílias. O serviço deve ser monitorado.",Água,Negativo
+235,"Sinceramente, os chapas cobram acima do preço normal.",Transportes,Negativo
+236,"Hoje, hoje tivemos electricidade estável durante todo o dia. O serviço deve ser monitorado.",Electricidade,Positivo
+237,"Em Nampula, a demora na reposição da corrente é inaceitável. A situação afecta muita gente.",Electricidade,Negativo
+238,"Segundo alguns moradores, foi registada uma ocorrência no posto de transformação. A situação afecta muita gente.",Electricidade,Neutro
+239,"No bairro, a factura veio muito alta sem explicação clara. O serviço deve ser monitorado.",Electricidade,Negativo
+240,"Em Nampula, a factura da água já se encontra disponível. A população comentou bastante sobre isso.",Água,Neutro
+241,"Em Nampula, as paragens estão desorganizadas e cheias de confusão. O serviço deve ser monitorado.",Transportes,Negativo
+242,"Sinceramente, o terminal recebeu nova sinalização para passageiros. O serviço deve ser monitorado.",Transportes,Neutro
+243,o bairro sofre cortes sem aviso prévio. Esta é a realidade no terreno.,Electricidade,Negativo
+244,"No bairro, os chapas circularam com melhor frequência. A população comentou bastante sobre isso.",Transportes,Positivo
+245,"Hoje, a água chegou cedo e com boa qualidade. A situação afecta muita gente.",Água,Positivo
+246,"No bairro, o abastecimento será interrompido durante algumas horas. A população comentou bastante sobre isso.",Água,Neutro
+247,"Na minha zona, a conduta rebentou e ninguém veio reparar.",Água,Negativo
+248,"Sinceramente, a corrente vai e volta várias vezes no mesmo dia.",Electricidade,Negativo
+249,"No bairro, o trajecto foi feito dentro do tempo esperado. É importante acompanhar.",Transportes,Positivo
+250,"Segundo alguns moradores, a energia voltou rapidamente no nosso bairro, bom trabalho da EDM. É importante acompanhar.",Electricidade,Positivo
+251,"Hoje, a pressão da água melhorou muito no bairro. O serviço deve ser monitorado.",Água,Positivo
+252,"Hoje, a EDM avisou com antecedência sobre a manutenção programada. A situação afecta muita gente.",Electricidade,Positivo
+253,"Hoje, o autocarro estava limpo e em boas condições. Esta é a realidade no terreno.",Transportes,Positivo
+254,"Sinceramente, o preço subiu, mas a qualidade não melhorou. A situação afecta muita gente.",Transportes,Negativo
+255,"Sinceramente, a factura veio correcta e o sistema de pagamento funcionou bem. O serviço deve ser monitorado.",Electricidade,Positivo
+256,"Na Beira, a EDM avisou com antecedência sobre a manutenção programada.",Electricidade,Positivo
+257,"No bairro, foi comunicado um trabalho de limpeza do reservatório.",Água,Neutro
+258,"Hoje, o contador foi verificado pela equipa técnica. A população comentou bastante sobre isso.",Electricidade,Neutro
+259,"No bairro, a factura veio correcta e o sistema de pagamento funcionou bem. A população comentou bastante sobre isso.",Electricidade,Positivo
+260,"Em Maputo, a reclamação ficou registada no sistema. A situação afecta muita gente.",Água,Neutro
+261,"Na minha zona, os técnicos da EDM estiveram a verificar a rede eléctrica. A situação afecta muita gente.",Electricidade,Neutro
+262,a equipa técnica está a avaliar uma possível fuga. É importante acompanhar.,Água,Neutro
+263,"Em Maputo, o motorista conduziu de forma perigosa. Isto precisa de atenção.",Transportes,Negativo
+264,"Sinceramente, o autocarro estava limpo e em boas condições. Isto precisa de atenção.",Transportes,Positivo
+265,"Em Nampula, a água esteve disponível em alguns períodos do dia. É importante acompanhar.",Água,Neutro
+266,"Em Maputo, a falta de água está a prejudicar as famílias. A situação afecta muita gente.",Água,Negativo
+267,"Segundo alguns moradores, a reclamação ficou registada no sistema. É importante acompanhar.",Água,Neutro
+268,a pressão da água melhorou muito no bairro. Isto precisa de atenção.,Água,Positivo
+269,"Na minha zona, a nova rota facilitou muito a deslocação dos moradores. A situação afecta muita gente.",Transportes,Positivo
+270,"Segundo alguns moradores, a equipa técnica está a avaliar uma possível fuga. É importante acompanhar.",Água,Neutro
+271,"Na minha zona, o pedido de ligação de água está em análise. É importante acompanhar.",Água,Neutro
+272,"Em Nampula, a factura da água já se encontra disponível. Isto precisa de atenção.",Água,Neutro
+273,"Sinceramente, hoje tivemos electricidade estável durante todo o dia. Isto precisa de atenção.",Electricidade,Positivo
+274,"Na Beira, os técnicos chegaram cedo e deixaram tudo a funcionar. Esta é a realidade no terreno.",Electricidade,Positivo
+275,"Em Maputo, algumas rotas foram desviadas por causa das obras. O serviço deve ser monitorado.",Transportes,Neutro
+276,"Hoje, a viagem foi desconfortável e demorada. O serviço deve ser monitorado.",Transportes,Negativo
+277,"Na minha zona, a água só chega de madrugada e por pouco tempo.",Água,Negativo
+278,"Em Maputo, hoje tivemos electricidade estável durante todo o dia.",Electricidade,Positivo
+279,"No bairro, a factura veio correcta e o sistema de pagamento funcionou bem. A população comentou bastante sobre isso.",Electricidade,Positivo
+280,"Segundo alguns moradores, os transportes atrasaram muito e cheguei tarde ao trabalho. A situação afecta muita gente.",Transportes,Negativo
+281,"Em Maputo, a conduta rebentou e ninguém veio reparar. A população comentou bastante sobre isso.",Água,Negativo
+282,"Na minha zona, a factura veio correcta e o sistema de pagamento funcionou bem. Esta é a realidade no terreno.",Electricidade,Positivo
+283,"Na minha zona, a conduta rebentou e ninguém veio reparar. É importante acompanhar.",Água,Negativo
+284,"Na Beira, a EDM demora muito para responder às reclamações. Esta é a realidade no terreno.",Electricidade,Negativo
+285,"Segundo alguns moradores, o preço da viagem foi mantido segundo o aviso oficial. A situação afecta muita gente.",Transportes,Neutro
+286,"Na Beira, a corrente vai e volta várias vezes no mesmo dia.",Electricidade,Negativo
+287,"No bairro, o abastecimento será interrompido durante algumas horas. O serviço deve ser monitorado.",Água,Neutro
+288,"Na Beira, os técnicos da EDM estiveram a verificar a rede eléctrica. A situação afecta muita gente.",Electricidade,Neutro
+289,"Em Nampula, a equipa da EDM resolveu a avaria com muita rapidez. O serviço deve ser monitorado.",Electricidade,Positivo
+290,"Na minha zona, a demora na reposição da corrente é inaceitável. É importante acompanhar.",Electricidade,Negativo
+291,"Em Nampula, a EDM anunciou uma manutenção programada para amanhã. Isto precisa de atenção.",Electricidade,Neutro
+292,"Hoje, a reposição da corrente foi feita antes do tempo previsto. É importante acompanhar.",Electricidade,Positivo
+293,os moradores receberam aviso sobre trabalhos eléctricos. A situação afecta muita gente.,Electricidade,Neutro
+294,"Em Nampula, a factura veio correcta e o sistema de pagamento funcionou bem. A situação afecta muita gente.",Electricidade,Positivo
+295,"Segundo alguns moradores, a melhoria dos transportes ajudou quem vai trabalhar cedo.",Transportes,Positivo
+296,"Na minha zona, a leitura do contador será feita nos próximos dias. A população comentou bastante sobre isso.",Electricidade,Neutro
+297,"Na minha zona, o preço subiu, mas a qualidade não melhorou. A situação afecta muita gente.",Transportes,Negativo
+298,a melhoria dos transportes ajudou quem vai trabalhar cedo. A situação afecta muita gente.,Transportes,Positivo
+299,"Na Beira, pagamos a factura, mas o abastecimento é irregular. Esta é a realidade no terreno.",Água,Negativo
+300,"Segundo alguns moradores, a paragem foi transferida temporariamente para outra zona. A população comentou bastante sobre isso.",Transportes,Neutro
+301,"Em Nampula, a viagem foi tranquila e sem atrasos. Esta é a realidade no terreno.",Transportes,Positivo
+302,"Sinceramente, a factura veio alta apesar de quase não termos água. É importante acompanhar.",Água,Negativo
+303,"Em Nampula, os passageiros ficaram muito tempo à espera. A situação afecta muita gente.",Transportes,Negativo
+304,"Em Maputo, a água só chega de madrugada e por pouco tempo. A situação afecta muita gente.",Água,Negativo
+305,"Em Maputo, a reparação da conduta foi feita no mesmo dia. O serviço deve ser monitorado.",Água,Positivo
+306,"Na minha zona, o pedido de ligação de água está em análise. Esta é a realidade no terreno.",Água,Neutro
+307,"Na minha zona, os chapas circularam com melhor frequência. O serviço deve ser monitorado.",Transportes,Positivo
+308,a paragem foi transferida temporariamente para outra zona. A situação afecta muita gente.,Transportes,Neutro
+309,"Na minha zona, a melhoria dos transportes ajudou quem vai trabalhar cedo. É importante acompanhar.",Transportes,Positivo
+310,"Na Beira, o transporte público esteve mais organizado esta manhã. Isto precisa de atenção.",Transportes,Positivo
+311,"Sinceramente, houve menos enchentes nas paragens hoje. Isto precisa de atenção.",Transportes,Positivo
+312,"Em Maputo, a pressão da água é muito fraca no bairro.",Água,Negativo
+313,"Em Nampula, a nova rota de transporte começou a operar hoje. É importante acompanhar.",Transportes,Neutro
+314,"Em Nampula, estamos sem água há três dias e não há explicação. Esta é a realidade no terreno.",Água,Negativo
+315,"Em Nampula, a pressão da água variou durante a manhã.",Água,Neutro
+316,"Hoje, a água chegou cedo e com boa qualidade.",Água,Positivo
+317,"Na minha zona, os horários dos autocarros foram actualizados. Esta é a realidade no terreno.",Transportes,Neutro
+318,o abastecimento de água foi regular durante toda a semana. A população comentou bastante sobre isso.,Água,Positivo
+319,"Segundo alguns moradores, a demora na reposição da corrente é inaceitável.",Electricidade,Negativo
+320,"Na minha zona, as enchentes nos chapas continuam perigosas. O serviço deve ser monitorado.",Transportes,Negativo
+321,"Sinceramente, o abastecimento de água foi regular durante toda a semana. A situação afecta muita gente.",Água,Positivo
+322,"Hoje, a circulação esteve condicionada durante a manhã.",Transportes,Neutro
+323,"Na minha zona, os apagões constantes estão a prejudicar os nossos negócios. O serviço deve ser monitorado.",Electricidade,Negativo
+324,"Na Beira, a pressão da água é muito fraca no bairro.",Água,Negativo
+325,"Em Maputo, o contador foi verificado pela equipa técnica. A situação afecta muita gente.",Electricidade,Neutro
+326,"Na minha zona, o preço da viagem foi mantido segundo o aviso oficial. A situação afecta muita gente.",Transportes,Neutro
+327,"Na Beira, o preço da viagem foi mantido segundo o aviso oficial. Isto precisa de atenção.",Transportes,Neutro
+328,"Sinceramente, a nova rota de transporte começou a operar hoje. A situação afecta muita gente.",Transportes,Neutro
+329,"No bairro, a iluminação pública continua avariada e a rua está perigosa.",Electricidade,Negativo
+330,"Na Beira, a iluminação pública foi reparada na nossa rua. Esta é a realidade no terreno.",Electricidade,Positivo
+331,"Na minha zona, a paragem foi transferida temporariamente para outra zona. A população comentou bastante sobre isso.",Transportes,Neutro
+332,"Sinceramente, a equipa da EDM resolveu a avaria com muita rapidez. O serviço deve ser monitorado.",Electricidade,Positivo
+333,"Hoje, o autocarro estava limpo e em boas condições.",Transportes,Positivo
+334,"Na Beira, a energia foi interrompida para trabalhos na rede. É importante acompanhar.",Electricidade,Neutro
+335,"Hoje, a factura da água já se encontra disponível. Isto precisa de atenção.",Água,Neutro
+336,"Hoje, os chapas cobram acima do preço normal. A população comentou bastante sobre isso.",Transportes,Negativo
+337,"Sinceramente, o serviço de energia melhorou bastante esta semana.",Electricidade,Positivo
+338,"Sinceramente, a reparação da conduta foi feita no mesmo dia. O serviço deve ser monitorado.",Água,Positivo
+339,"Em Nampula, a circulação esteve condicionada durante a manhã. É importante acompanhar.",Transportes,Neutro
+340,"Sinceramente, a paragem foi transferida temporariamente para outra zona. Esta é a realidade no terreno.",Transportes,Neutro
+341,"No bairro, a leitura do contador será feita nos próximos dias. Esta é a realidade no terreno.",Electricidade,Neutro
+342,"Na minha zona, a água só chega de madrugada e por pouco tempo. A população comentou bastante sobre isso.",Água,Negativo
+343,"Em Maputo, a água esteve disponível em alguns períodos do dia. É importante acompanhar.",Água,Neutro
+344,"Na Beira, hoje os autocarros chegaram no horário. Isto precisa de atenção.",Transportes,Positivo
+345,"Na Beira, os técnicos da EDM estiveram a verificar a rede eléctrica. O serviço deve ser monitorado.",Electricidade,Neutro
+346,"No bairro, a pressão da água é muito fraca no bairro. A situação afecta muita gente.",Água,Negativo
+347,"Na Beira, a rede de água precisa de manutenção urgente. A população comentou bastante sobre isso.",Água,Negativo
+348,"Em Maputo, os técnicos chegaram cedo e deixaram tudo a funcionar. Esta é a realidade no terreno.",Electricidade,Positivo
+349,"Em Maputo, a corrente vai e volta várias vezes no mesmo dia.",Electricidade,Negativo
+350,"Sinceramente, o FIPAG informou que haverá manutenção na rede de água. A situação afecta muita gente.",Água,Neutro
+351,"Na Beira, a viagem foi tranquila e sem atrasos. A situação afecta muita gente.",Transportes,Positivo
+352,"Hoje, a circulação esteve condicionada durante a manhã. A população comentou bastante sobre isso.",Transportes,Neutro
+353,"Hoje, hoje os autocarros chegaram no horário. O serviço deve ser monitorado.",Transportes,Positivo
+354,"No bairro, a pressão da água é muito fraca no bairro. Esta é a realidade no terreno.",Água,Negativo
+355,"Sinceramente, a água chega suja e com mau cheiro. É importante acompanhar.",Água,Negativo
+356,"Em Maputo, os chapas circularam com melhor frequência. A população comentou bastante sobre isso.",Transportes,Positivo
+357,"Hoje, a EDM demora muito para responder às reclamações. A população comentou bastante sobre isso.",Electricidade,Negativo
+358,"Na Beira, o terminal recebeu nova sinalização para passageiros.",Transportes,Neutro
+359,"Na Beira, a equipa técnica está a avaliar uma possível fuga. Esta é a realidade no terreno.",Água,Neutro
+360,"Em Maputo, a conduta rebentou e ninguém veio reparar.",Água,Negativo
+361,"No bairro, a água chegou cedo e com boa qualidade. O serviço deve ser monitorado.",Água,Positivo
+362,a pressão da água é muito fraca no bairro.,Água,Negativo
+363,"Na Beira, a reparação da conduta foi feita no mesmo dia. A situação afecta muita gente.",Água,Positivo
+364,"Em Maputo, a melhoria dos transportes ajudou quem vai trabalhar cedo. Esta é a realidade no terreno.",Transportes,Positivo
+365,a leitura do contador será feita nos próximos dias. A situação afecta muita gente.,Electricidade,Neutro
+366,"No bairro, a falta de energia estragou alimentos em várias casas. Esta é a realidade no terreno.",Electricidade,Negativo
+367,"Em Nampula, a pressão da água melhorou muito no bairro. O serviço deve ser monitorado.",Água,Positivo
+368,os moradores aguardam reposição do abastecimento. A população comentou bastante sobre isso.,Água,Neutro
+369,"No bairro, o pedido de ligação de água está em análise. O serviço deve ser monitorado.",Água,Neutro
+370,a factura da água já se encontra disponível. Isto precisa de atenção.,Água,Neutro
+371,"Em Maputo, o FIPAG demora a responder às reclamações. A situação afecta muita gente.",Água,Negativo
+372,a água chegou cedo e com boa qualidade. O serviço deve ser monitorado.,Água,Positivo
+373,"Hoje, o motorista conduziu com segurança e respeito.",Transportes,Positivo
+374,"No bairro, hoje haverá interrupção de energia em alguns bairros. Isto precisa de atenção.",Electricidade,Neutro
+375,a reclamação ficou registada no sistema. A população comentou bastante sobre isso.,Água,Neutro
+376,"Na minha zona, a EDM informou que a reposição será feita à tarde. Esta é a realidade no terreno.",Electricidade,Neutro
+377,"Em Nampula, o FIPAG demora a responder às reclamações.",Água,Negativo
+378,a falta de energia estragou alimentos em várias casas. Isto precisa de atenção.,Electricidade,Negativo
+379,"Em Maputo, a água só chega de madrugada e por pouco tempo. É importante acompanhar.",Água,Negativo
+380,"Segundo alguns moradores, pagamos a factura, mas o abastecimento é irregular. A situação afecta muita gente.",Água,Negativo
+381,"Hoje, a conduta rebentou e ninguém veio reparar. A população comentou bastante sobre isso.",Água,Negativo
+382,"Sinceramente, os horários dos autocarros foram actualizados. Esta é a realidade no terreno.",Transportes,Neutro
+383,"Na minha zona, o abastecimento de água foi regular durante toda a semana. O serviço deve ser monitorado.",Água,Positivo
+384,"Sinceramente, o terminal estava sujo e sem orientação. Isto precisa de atenção.",Transportes,Negativo
+385,"Hoje, a energia foi interrompida para trabalhos na rede.",Electricidade,Neutro
+386,"Hoje, a circulação esteve condicionada durante a manhã. A situação afecta muita gente.",Transportes,Neutro
+387,"Em Nampula, o serviço de energia melhorou bastante esta semana. Esta é a realidade no terreno.",Electricidade,Positivo
+388,"Na Beira, a factura de energia já está disponível para pagamento. Isto precisa de atenção.",Electricidade,Neutro
+389,"Em Nampula, a reparação da conduta foi feita no mesmo dia. É importante acompanhar.",Água,Positivo
+390,"Hoje, as paragens estão desorganizadas e cheias de confusão. A população comentou bastante sobre isso.",Transportes,Negativo
+391,"No bairro, o preço da viagem foi mantido segundo o aviso oficial. É importante acompanhar.",Transportes,Neutro
+392,a factura veio muito alta sem explicação clara.,Electricidade,Negativo
+393,"Na Beira, o preço subiu, mas a qualidade não melhorou. O serviço deve ser monitorado.",Transportes,Negativo
+394,"No bairro, o preço da viagem foi mantido segundo o aviso oficial. O serviço deve ser monitorado.",Transportes,Neutro
+395,"Segundo alguns moradores, os passageiros ficaram muito tempo à espera. O serviço deve ser monitorado.",Transportes,Negativo
+396,"Segundo alguns moradores, a iluminação pública continua avariada e a rua está perigosa. Esta é a realidade no terreno.",Electricidade,Negativo
+397,o município anunciou mudanças na circulação dos chapas. A situação afecta muita gente.,Transportes,Neutro
+398,"Sinceramente, os chapas cobram acima do preço normal. A situação afecta muita gente.",Transportes,Negativo
+399,"No bairro, a equipa técnica está a avaliar uma possível fuga.",Água,Neutro
+400,"Hoje, estamos sem água há três dias e não há explicação. A população comentou bastante sobre isso.",Água,Negativo
+401,"Na minha zona, a água chega suja e com mau cheiro.",Água,Negativo
+402,"Em Nampula, os apagões constantes estão a prejudicar os nossos negócios. A situação afecta muita gente.",Electricidade,Negativo
+403,"Sinceramente, o aviso sobre a interrupção de água foi feito com antecedência. A situação afecta muita gente.",Água,Positivo
+404,"Em Nampula, o motorista conduziu com segurança e respeito. É importante acompanhar.",Transportes,Positivo
+405,"Em Maputo, a factura veio muito alta sem explicação clara. A população comentou bastante sobre isso.",Electricidade,Negativo
+406,"Na Beira, a água chega suja e com mau cheiro. O serviço deve ser monitorado.",Água,Negativo
+407,"Sinceramente, a baixa tensão danificou aparelhos em casa.",Electricidade,Negativo
+408,o preço da viagem foi mantido segundo o aviso oficial. O serviço deve ser monitorado.,Transportes,Neutro
+409,"No bairro, a equipa técnica está a avaliar uma possível fuga. Esta é a realidade no terreno.",Água,Neutro
+410,"Na Beira, o motorista conduziu com segurança e respeito. A situação afecta muita gente.",Transportes,Positivo
+411,"Hoje, os chapas cobram acima do preço normal.",Transportes,Negativo
+412,"Sinceramente, a factura de energia já está disponível para pagamento. Isto precisa de atenção.",Electricidade,Neutro
+413,"Na Beira, o pedido de ligação de água está em análise. A situação afecta muita gente.",Água,Neutro
+414,"No bairro, o motorista conduziu de forma perigosa. Esta é a realidade no terreno.",Transportes,Negativo
+415,"Em Maputo, hoje os autocarros chegaram no horário.",Transportes,Positivo
+416,"Em Maputo, os moradores aguardam reposição do abastecimento. A situação afecta muita gente.",Água,Neutro
+417,"Na minha zona, o transporte público esteve mais organizado esta manhã. O serviço deve ser monitorado.",Transportes,Positivo
+418,"No bairro, estamos sem energia há muitas horas e ninguém explica nada. A população comentou bastante sobre isso.",Electricidade,Negativo
+419,"Na Beira, a melhoria dos transportes ajudou quem vai trabalhar cedo. Isto precisa de atenção.",Transportes,Positivo
+420,"Na minha zona, a viagem foi desconfortável e demorada. A situação afecta muita gente.",Transportes,Negativo
+421,"Na Beira, a EDM anunciou uma manutenção programada para amanhã. A população comentou bastante sobre isso.",Electricidade,Neutro
+422,os técnicos da EDM estiveram a verificar a rede eléctrica. Esta é a realidade no terreno.,Electricidade,Neutro
+423,o abastecimento de água foi regular durante toda a semana. É importante acompanhar.,Água,Positivo
+424,"Hoje, a reparação da conduta foi feita no mesmo dia. É importante acompanhar.",Água,Positivo
+425,"No bairro, estamos sem água há três dias e não há explicação. Esta é a realidade no terreno.",Água,Negativo
+426,"Segundo alguns moradores, algumas rotas foram desviadas por causa das obras. Esta é a realidade no terreno.",Transportes,Neutro
+427,"Na Beira, o terminal recebeu nova sinalização para passageiros. Isto precisa de atenção.",Transportes,Neutro
+428,"Em Maputo, foi registada uma ocorrência no posto de transformação. A situação afecta muita gente.",Electricidade,Neutro
+429,"o preço subiu, mas a qualidade não melhorou. A população comentou bastante sobre isso.",Transportes,Negativo
+430,"Sinceramente, a falta de energia estragou alimentos em várias casas. Esta é a realidade no terreno.",Electricidade,Negativo
+431,"Sinceramente, o terminal recebeu nova sinalização para passageiros. A população comentou bastante sobre isso.",Transportes,Neutro
+432,"Sinceramente, a reparação da conduta foi feita no mesmo dia. O serviço deve ser monitorado.",Água,Positivo
+433,"No bairro, o preço subiu, mas a qualidade não melhorou. A população comentou bastante sobre isso.",Transportes,Negativo
+434,os moradores aguardam reposição do abastecimento.,Água,Neutro
+435,"No bairro, a viagem foi desconfortável e demorada.",Transportes,Negativo
+436,"Em Maputo, a equipa da EDM resolveu a avaria com muita rapidez. Esta é a realidade no terreno.",Electricidade,Positivo
+437,"Sinceramente, o abastecimento de água foi regular durante toda a semana. Esta é a realidade no terreno.",Água,Positivo
+438,"Hoje, as enchentes nos chapas continuam perigosas. A situação afecta muita gente.",Transportes,Negativo
+439,a falta de energia estragou alimentos em várias casas. É importante acompanhar.,Electricidade,Negativo
+440,"No bairro, o FIPAG respondeu rapidamente à reclamação dos moradores. Isto precisa de atenção.",Água,Positivo
+441,"Em Nampula, a falta de água está a prejudicar as famílias. A população comentou bastante sobre isso.",Água,Negativo
+442,"Em Maputo, hoje tivemos electricidade estável durante todo o dia. É importante acompanhar.",Electricidade,Positivo
+443,"Em Nampula, houve menos enchentes nas paragens hoje. A situação afecta muita gente.",Transportes,Positivo
+444,"Em Maputo, os técnicos chegaram cedo e deixaram tudo a funcionar. Isto precisa de atenção.",Electricidade,Positivo
+445,"Hoje, foi comunicado um trabalho de limpeza do reservatório. A situação afecta muita gente.",Água,Neutro
+446,"Sinceramente, o abastecimento de água foi regular durante toda a semana. Isto precisa de atenção.",Água,Positivo
+447,"Na minha zona, os técnicos da EDM estiveram a verificar a rede eléctrica. O serviço deve ser monitorado.",Electricidade,Neutro
+448,"Sinceramente, o autocarro estava limpo e em boas condições. O serviço deve ser monitorado.",Transportes,Positivo
+449,"No bairro, o pedido de ligação de água está em análise. Isto precisa de atenção.",Água,Neutro
+450,"No bairro, o trajecto foi feito dentro do tempo esperado.",Transportes,Positivo
+451,"Na minha zona, a EDM avisou com antecedência sobre a manutenção programada.",Electricidade,Positivo
+452,"Hoje, o novo posto de transformação reduziu os cortes no bairro. A situação afecta muita gente.",Electricidade,Positivo
+453,"No bairro, a reposição da corrente foi feita antes do tempo previsto. O serviço deve ser monitorado.",Electricidade,Positivo
+454,"Segundo alguns moradores, o autocarro estava limpo e em boas condições. É importante acompanhar.",Transportes,Positivo
+455,"Na minha zona, o motorista conduziu com segurança e respeito. A situação afecta muita gente.",Transportes,Positivo
+456,"Segundo alguns moradores, foi registada uma ocorrência no posto de transformação. Isto precisa de atenção.",Electricidade,Neutro
+457,a factura veio muito alta sem explicação clara. O serviço deve ser monitorado.,Electricidade,Negativo
+458,"Em Nampula, a rede de água precisa de manutenção urgente.",Água,Negativo
+459,o contador foi verificado pela equipa técnica.,Electricidade,Neutro
+460,"Na Beira, o terminal estava sujo e sem orientação. A população comentou bastante sobre isso.",Transportes,Negativo
+461,a pressão da água melhorou muito no bairro. É importante acompanhar.,Água,Positivo
+462,"No bairro, a energia voltou rapidamente no nosso bairro, bom trabalho da EDM. Esta é a realidade no terreno.",Electricidade,Positivo
+463,"Em Maputo, a leitura do contador será feita nos próximos dias. É importante acompanhar.",Electricidade,Neutro
+464,"Hoje, a pressão da água é muito fraca no bairro. A população comentou bastante sobre isso.",Água,Negativo
+465,"Em Maputo, algumas rotas foram desviadas por causa das obras. A população comentou bastante sobre isso.",Transportes,Neutro
+466,a falta de água está a prejudicar as famílias.,Água,Negativo
+467,"Na Beira, a viagem foi tranquila e sem atrasos. O serviço deve ser monitorado.",Transportes,Positivo
+468,"Na Beira, a EDM demora muito para responder às reclamações. É importante acompanhar.",Electricidade,Negativo
+469,"Em Maputo, a conduta rebentou e ninguém veio reparar. Esta é a realidade no terreno.",Água,Negativo
+470,hoje tivemos electricidade estável durante todo o dia. A população comentou bastante sobre isso.,Electricidade,Positivo
+471,"Em Nampula, as paragens estão desorganizadas e cheias de confusão. É importante acompanhar.",Transportes,Negativo
+472,"Em Nampula, o FIPAG demora a responder às reclamações. Esta é a realidade no terreno.",Água,Negativo
+473,"Sinceramente, a factura de energia já está disponível para pagamento.",Electricidade,Neutro
+474,"Hoje, o serviço funcionou dentro dos horários anunciados. Isto precisa de atenção.",Transportes,Neutro
+475,"No bairro, o abastecimento será interrompido durante algumas horas. Isto precisa de atenção.",Água,Neutro
+476,"No bairro, a circulação esteve condicionada durante a manhã. A população comentou bastante sobre isso.",Transportes,Neutro
+477,"Segundo alguns moradores, o preço da viagem foi mantido segundo o aviso oficial. Esta é a realidade no terreno.",Transportes,Neutro
+478,"No bairro, a leitura do contador será feita nos próximos dias. A situação afecta muita gente.",Electricidade,Neutro
+479,a energia foi interrompida para trabalhos na rede. É importante acompanhar.,Electricidade,Neutro
+480,a reposição da corrente foi feita antes do tempo previsto.,Electricidade,Positivo
+481,"Sinceramente, a energia foi interrompida para trabalhos na rede. A população comentou bastante sobre isso.",Electricidade,Neutro
+482,"Na Beira, o terminal estava sujo e sem orientação. Esta é a realidade no terreno.",Transportes,Negativo
+483,"Em Maputo, a rede de água precisa de manutenção urgente. Esta é a realidade no terreno.",Água,Negativo
+484,"Na Beira, a EDM demora muito para responder às reclamações. O serviço deve ser monitorado.",Electricidade,Negativo
+485,"Em Nampula, estamos satisfeitos com a melhoria no abastecimento.",Água,Positivo
+486,"Em Maputo, a EDM informou que a reposição será feita à tarde. A situação afecta muita gente.",Electricidade,Neutro
+487,"Sinceramente, a falta de energia estragou alimentos em várias casas. Isto precisa de atenção.",Electricidade,Negativo
+488,"Hoje, a viagem foi desconfortável e demorada. É importante acompanhar.",Transportes,Negativo
+489,"Hoje, o preço subiu, mas a qualidade não melhorou. A situação afecta muita gente.",Transportes,Negativo
+490,"Segundo alguns moradores, a EDM anunciou uma manutenção programada para amanhã. A situação afecta muita gente.",Electricidade,Neutro
+491,"No bairro, a nova rota de transporte começou a operar hoje. O serviço deve ser monitorado.",Transportes,Neutro
+492,"Em Nampula, houve menos enchentes nas paragens hoje. Isto precisa de atenção.",Transportes,Positivo
+493,"Hoje, a equipa técnica resolveu a fuga de água rapidamente. Isto precisa de atenção.",Água,Positivo
+494,"Em Maputo, a factura da água já se encontra disponível. É importante acompanhar.",Água,Neutro
+495,"Sinceramente, os moradores receberam aviso sobre trabalhos eléctricos. É importante acompanhar.",Electricidade,Neutro
+496,"Na minha zona, o novo posto de transformação reduziu os cortes no bairro. A população comentou bastante sobre isso.",Electricidade,Positivo
+497,"No bairro, o bairro sofre cortes sem aviso prévio. A população comentou bastante sobre isso.",Electricidade,Negativo
+498,"Na minha zona, a energia voltou rapidamente no nosso bairro, bom trabalho da EDM. O serviço deve ser monitorado.",Electricidade,Positivo
+499,"Na minha zona, o serviço de energia melhorou bastante esta semana. Isto precisa de atenção.",Electricidade,Positivo
+500,"No bairro, os apagões constantes estão a prejudicar os nossos negócios. A população comentou bastante sobre isso.",Electricidade,Negativo
+501,"Na Beira, o pedido de ligação de água está em análise. A população comentou bastante sobre isso.",Água,Neutro
+502,"Em Maputo, a reclamação ficou registada no sistema. O serviço deve ser monitorado.",Água,Neutro
+503,"Na Beira, os moradores receberam aviso sobre trabalhos eléctricos. O serviço deve ser monitorado.",Electricidade,Neutro
+504,"Em Nampula, a viagem foi tranquila e sem atrasos. O serviço deve ser monitorado.",Transportes,Positivo
+505,"Hoje, a iluminação pública foi reparada na nossa rua. É importante acompanhar.",Electricidade,Positivo
+506,"Em Maputo, estamos sem água há três dias e não há explicação.",Água,Negativo
+507,"Segundo alguns moradores, a pressão da água é muito fraca no bairro. A situação afecta muita gente.",Água,Negativo
+508,"Na minha zona, os técnicos da EDM estiveram a verificar a rede eléctrica. A população comentou bastante sobre isso.",Electricidade,Neutro
+509,"Segundo alguns moradores, pagamos a factura, mas o abastecimento é irregular.",Água,Negativo
+510,"Segundo alguns moradores, os técnicos da EDM estiveram a verificar a rede eléctrica. A população comentou bastante sobre isso.",Electricidade,Neutro
+511,"Em Nampula, o município anunciou mudanças na circulação dos chapas. É importante acompanhar.",Transportes,Neutro
+512,"No bairro, o FIPAG informou que haverá manutenção na rede de água. É importante acompanhar.",Água,Neutro
+513,"No bairro, o bairro sofre cortes sem aviso prévio. O serviço deve ser monitorado.",Electricidade,Negativo
+514,"Sinceramente, a paragem foi transferida temporariamente para outra zona. É importante acompanhar.",Transportes,Neutro
+515,"No bairro, a pressão da água é muito fraca no bairro. O serviço deve ser monitorado.",Água,Negativo
+516,"Em Nampula, os chapas circularam com melhor frequência. Isto precisa de atenção.",Transportes,Positivo
+517,"Hoje, a factura veio correcta e o sistema de pagamento funcionou bem. Isto precisa de atenção.",Electricidade,Positivo
+518,"Em Nampula, a rede de água precisa de manutenção urgente. O serviço deve ser monitorado.",Água,Negativo
+519,"Sinceramente, o aviso sobre a interrupção de água foi feito com antecedência. O serviço deve ser monitorado.",Água,Positivo
+520,"Na minha zona, o motorista conduziu de forma perigosa. Esta é a realidade no terreno.",Transportes,Negativo
+521,"Em Maputo, a água só chega de madrugada e por pouco tempo. Isto precisa de atenção.",Água,Negativo
+522,"Em Nampula, o serviço de energia melhorou bastante esta semana. A população comentou bastante sobre isso.",Electricidade,Positivo
+523,"No bairro, a EDM avisou com antecedência sobre a manutenção programada. A população comentou bastante sobre isso.",Electricidade,Positivo
+524,"Em Maputo, a melhoria dos transportes ajudou quem vai trabalhar cedo. O serviço deve ser monitorado.",Transportes,Positivo
+525,"Em Nampula, a equipa da EDM resolveu a avaria com muita rapidez. É importante acompanhar.",Electricidade,Positivo
+526,"Segundo alguns moradores, a água chega suja e com mau cheiro. A população comentou bastante sobre isso.",Água,Negativo
+527,"Na Beira, o município anunciou mudanças na circulação dos chapas. A população comentou bastante sobre isso.",Transportes,Neutro
+528,"Na Beira, o autocarro estava limpo e em boas condições. É importante acompanhar.",Transportes,Positivo
+529,"No bairro, os técnicos da EDM estiveram a verificar a rede eléctrica. É importante acompanhar.",Electricidade,Neutro
+530,"Em Nampula, a equipa da EDM resolveu a avaria com muita rapidez.",Electricidade,Positivo
+531,"Em Nampula, a nova rota de transporte começou a operar hoje. É importante acompanhar.",Transportes,Neutro
+532,"Na minha zona, o abastecimento será interrompido durante algumas horas. Esta é a realidade no terreno.",Água,Neutro
+533,"Em Nampula, a factura de energia já está disponível para pagamento. O serviço deve ser monitorado.",Electricidade,Neutro
+534,"Em Nampula, a falta de energia estragou alimentos em várias casas. Esta é a realidade no terreno.",Electricidade,Negativo
+535,"Hoje, estamos sem energia há muitas horas e ninguém explica nada.",Electricidade,Negativo
+536,"Hoje, há poucos autocarros para tanta gente. A população comentou bastante sobre isso.",Transportes,Negativo
+537,"Em Maputo, o abastecimento será interrompido durante algumas horas. O serviço deve ser monitorado.",Água,Neutro
+538,"No bairro, os técnicos da EDM estiveram a verificar a rede eléctrica. É importante acompanhar.",Electricidade,Neutro
+539,"Em Maputo, os chapas circularam com melhor frequência. Esta é a realidade no terreno.",Transportes,Positivo
+540,"Na minha zona, o bairro sofre cortes sem aviso prévio. Isto precisa de atenção.",Electricidade,Negativo
+541,"Em Maputo, o FIPAG demora a responder às reclamações. É importante acompanhar.",Água,Negativo
+542,"Na minha zona, o FIPAG respondeu rapidamente à reclamação dos moradores. Esta é a realidade no terreno.",Água,Positivo
+543,"Hoje, a paragem foi transferida temporariamente para outra zona. Isto precisa de atenção.",Transportes,Neutro
+544,"Sinceramente, o serviço de energia melhorou bastante esta semana. Isto precisa de atenção.",Electricidade,Positivo
+545,"Na Beira, o preço subiu, mas a qualidade não melhorou. Esta é a realidade no terreno.",Transportes,Negativo
+546,"Na minha zona, o abastecimento de água foi regular durante toda a semana. O serviço deve ser monitorado.",Água,Positivo
+547,"Sinceramente, a factura de energia já está disponível para pagamento. É importante acompanhar.",Electricidade,Neutro
+548,"Em Maputo, o novo posto de transformação reduziu os cortes no bairro. O serviço deve ser monitorado.",Electricidade,Positivo
+549,a rede de água precisa de manutenção urgente. O serviço deve ser monitorado.,Água,Negativo
+550,"Na Beira, a factura veio muito alta sem explicação clara.",Electricidade,Negativo
+551,"Hoje, a corrente vai e volta várias vezes no mesmo dia.",Electricidade,Negativo
+552,"Sinceramente, a paragem foi transferida temporariamente para outra zona. A população comentou bastante sobre isso.",Transportes,Neutro
+553,a água chegou cedo e com boa qualidade.,Água,Positivo
+554,"Segundo alguns moradores, a circulação esteve condicionada durante a manhã. Esta é a realidade no terreno.",Transportes,Neutro
+555,"No bairro, os horários dos autocarros foram actualizados. Esta é a realidade no terreno.",Transportes,Neutro
+556,"Na minha zona, os técnicos da EDM estiveram a verificar a rede eléctrica. Esta é a realidade no terreno.",Electricidade,Neutro
+557,"Na minha zona, a reposição da corrente foi feita antes do tempo previsto. A situação afecta muita gente.",Electricidade,Positivo
+558,"No bairro, a reclamação ficou registada no sistema. É importante acompanhar.",Água,Neutro
+559,"Segundo alguns moradores, o município anunciou mudanças na circulação dos chapas. É importante acompanhar.",Transportes,Neutro
+560,"Em Nampula, a pressão da água variou durante a manhã. A situação afecta muita gente.",Água,Neutro
+561,"Segundo alguns moradores, o motorista conduziu com segurança e respeito. É importante acompanhar.",Transportes,Positivo
+562,"Na Beira, o preço subiu, mas a qualidade não melhorou. É importante acompanhar.",Transportes,Negativo
+563,"Hoje, a conduta rebentou e ninguém veio reparar. Esta é a realidade no terreno.",Água,Negativo
+564,"Hoje, a viagem foi desconfortável e demorada. Esta é a realidade no terreno.",Transportes,Negativo
+565,"Na Beira, a falta de água está a prejudicar as famílias. A situação afecta muita gente.",Água,Negativo
+566,"Na minha zona, foi registada uma ocorrência no posto de transformação. A população comentou bastante sobre isso.",Electricidade,Neutro
+567,os chapas cobram acima do preço normal. Isto precisa de atenção.,Transportes,Negativo
+568,"Na minha zona, hoje os autocarros chegaram no horário. A população comentou bastante sobre isso.",Transportes,Positivo
+569,"Em Nampula, a água chega suja e com mau cheiro. O serviço deve ser monitorado.",Água,Negativo
+570,"Na Beira, a falta de água está a prejudicar as famílias. Esta é a realidade no terreno.",Água,Negativo
+571,"Segundo alguns moradores, hoje tivemos electricidade estável durante todo o dia. A população comentou bastante sobre isso.",Electricidade,Positivo
+572,"Em Maputo, a factura veio alta apesar de quase não termos água.",Água,Negativo
+573,"Segundo alguns moradores, as paragens estão desorganizadas e cheias de confusão. O serviço deve ser monitorado.",Transportes,Negativo
+574,"Em Nampula, foi registada uma ocorrência no posto de transformação. A população comentou bastante sobre isso.",Electricidade,Neutro
+575,"Na minha zona, a iluminação pública foi reparada na nossa rua. É importante acompanhar.",Electricidade,Positivo
+576,"Na minha zona, a equipa técnica está a avaliar uma possível fuga.",Água,Neutro
+577,"Em Nampula, a iluminação pública continua avariada e a rua está perigosa.",Electricidade,Negativo
+578,"Em Maputo, o transporte público esteve mais organizado esta manhã. A situação afecta muita gente.",Transportes,Positivo
+579,"Sinceramente, a factura da água já se encontra disponível. A situação afecta muita gente.",Água,Neutro
+580,"Na Beira, a melhoria dos transportes ajudou quem vai trabalhar cedo.",Transportes,Positivo
+581,algumas rotas foram desviadas por causa das obras.,Transportes,Neutro
+582,"Segundo alguns moradores, a corrente vai e volta várias vezes no mesmo dia. O serviço deve ser monitorado.",Electricidade,Negativo
+583,"Na Beira, a pressão da água é muito fraca no bairro. Isto precisa de atenção.",Água,Negativo
+584,"Na Beira, o preço da viagem foi mantido segundo o aviso oficial.",Transportes,Neutro
+585,"Na Beira, os moradores aguardam reposição do abastecimento.",Água,Neutro
+586,a reparação da conduta foi feita no mesmo dia.,Água,Positivo
+587,"Sinceramente, a reparação da conduta foi feita no mesmo dia.",Água,Positivo
+588,"Na minha zona, o preço da viagem foi mantido segundo o aviso oficial. Esta é a realidade no terreno.",Transportes,Neutro
+589,"Em Maputo, o FIPAG respondeu rapidamente à reclamação dos moradores. Isto precisa de atenção.",Água,Positivo
+590,a corrente vai e volta várias vezes no mesmo dia. Isto precisa de atenção.,Electricidade,Negativo
+591,"Na minha zona, foi comunicado um trabalho de limpeza do reservatório. A população comentou bastante sobre isso.",Água,Neutro
+592,"Em Maputo, o contador foi verificado pela equipa técnica. Esta é a realidade no terreno.",Electricidade,Neutro
+593,"Em Maputo, a iluminação pública continua avariada e a rua está perigosa. O serviço deve ser monitorado.",Electricidade,Negativo
+594,"No bairro, a água chegou cedo e com boa qualidade. Esta é a realidade no terreno.",Água,Positivo
+595,"No bairro, a iluminação pública foi reparada na nossa rua.",Electricidade,Positivo
+596,"Em Nampula, a água voltou com boa pressão depois da reparação. Isto precisa de atenção.",Água,Positivo
+597,"Sinceramente, o abastecimento de água foi regular durante toda a semana. É importante acompanhar.",Água,Positivo
+598,"No bairro, o abastecimento será interrompido durante algumas horas. O serviço deve ser monitorado.",Água,Neutro
+599,"Em Maputo, os apagões constantes estão a prejudicar os nossos negócios. É importante acompanhar.",Electricidade,Negativo
+600,"Na Beira, estamos satisfeitos com a melhoria no abastecimento. Esta é a realidade no terreno.",Água,Positivo
